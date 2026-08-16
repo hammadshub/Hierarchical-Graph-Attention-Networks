@@ -24,7 +24,6 @@ roughly halves ROUGE-1. See `experiments.md` for full results and analysis.
 | Ablation: no semantic edges | 0.1646 | 0.0242 | 0.1037 |
 | Ablation: no attention (SAGEConv) | 0.0812 | 0.0030 | 0.0642 |
 
-
 ## Dataset
 
 [`ccdv/pubmed-summarization`](https://huggingface.co/datasets/ccdv/pubmed-summarization)
