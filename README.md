@@ -24,48 +24,6 @@ roughly halves ROUGE-1. See `experiments.md` for full results and analysis.
 | Ablation: no semantic edges | 0.1646 | 0.0242 | 0.1037 |
 | Ablation: no attention (SAGEConv) | 0.0812 | 0.0030 | 0.0642 |
 
-## Repository Structure
-
-```
-hierarchical-graph-summarization/
-│
-├── README.md                  # this file
-├── requirements.txt
-│
-├── docs/
-│   └── 01_literature_review.md
-│
-├── src/
-│   ├── preprocessing/
-│   │   ├── sentence_splitter.py
-│   │   └── hierarchy_builder.py
-│   ├── graph/
-│   │   ├── graph_builder.py
-│   │   ├── edge_builder.py
-│   │   └── graph_dataset.py
-│   ├── models/
-│   │   ├── baseline.py
-│   │   ├── gat_encoder.py
-│   │   ├── bridge.py
-│   │   └── summarizer.py
-│   ├── training/
-│   │   └── trainer.py
-│   └── evaluation/
-│       └── evaluate.py
-│
-├── experiments/
-│   ├── baseline/
-│   ├── hierarchical_gat/
-│   └── ablations/
-│
-├── results/
-│   └── metrics.csv
-│
-└── paper/
-    ├── methodology.md
-    ├── experiments.md
-    └── report.pdf
-```
 
 ## Dataset
 
